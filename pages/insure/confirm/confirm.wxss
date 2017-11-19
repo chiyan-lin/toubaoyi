@@ -1,0 +1,36 @@
+.page .content{
+  width: 85%
+}
+.page .content .type-1 .info{
+  margin-left: 10rpx;
+}
+.page .content .type-2{
+  border-bottom: 0;
+}
+.page .content .number{
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 0.9rem
+}
+.page .content .type-2 .label{
+  align-self: flex-start;
+  font-size: 1rem;
+}
+.page .content .type-2 .money{
+  align-self: flex-end;
+  font-size: 1rem;
+  color: #019c62;
+}
+.page .content .insure-money{
+  margin-top:26rpx; 
+  padding-bottom: 30rpx;
+}
+.page .part3{
+  margin-top: 20rpx;
+  background-color: #f4f4f4;
+  font-size: 0.9rem;
+  color: #ccc
+}
+.page .part3 .checkbox{
+  padding-left: 10rpx;
+}

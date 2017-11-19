@@ -1,0 +1,57 @@
+.page .banner{
+  width: 100%;
+  height: 300rpx
+}
+.page .notice{
+  background-color: #fff;
+  margin-top:15rpx; 
+  margin-bottom:15rpx; 
+  padding-top:10rpx; 
+  padding-bottom:10rpx; 
+}
+.page .notice .turn{
+  width: 60%;
+  height: 50rpx;
+  margin-left: 20rpx
+}
+.page .notice .noticeIcon{
+  width: 50rpx;
+  height: 50rpx;
+}
+.page .notice .label{
+  color: red;
+  font-size: 0.9em;
+  margin-right: 20rpx
+}
+.page .notice .turn .txt{
+  color: #888;
+  font-size: 0.7em;
+}
+.page .func{
+  background-color: #fff
+}
+.page .func .left{
+  width: 50%;
+  height: 600rpx;
+  border-right:1px dotted #888
+}
+.page .func .left .pic{
+  width: 274rpx;
+  height: 312rpx;
+  margin-bottom: 100rpx
+}
+.page .func .right{
+  width: 50%;
+  height: 600rpx;
+}
+.page .func .right view{
+  width: 100%;
+  height:100%
+}
+.page .func .right .work{
+  border-bottom:1px dotted #888;
+}
+.page .func .right .pic{
+  width: 180rpx;
+  height: 180rpx;
+}

@@ -1,0 +1,76 @@
+/* pages/mine/mine.wxss */
+.page .top{
+  background-color: #fff;
+  padding: 30rpx 20rpx 30rpx;
+  box-sizing: border-box
+}
+.page .top .left image{
+  width: 200rpx;
+  height: 150rpx;
+}
+.page .top  image{
+  width: 40rpx;
+  height: 50rpx;
+}
+.page .top .left .txt{
+  margin-left: 30rpx
+}
+.page .top .left .txt .com{
+  font-size: 0.8em;
+  color: #888;
+  margin-top: 10rpx
+}
+.page .middle{
+  width: 100%;
+  margin-top: 30rpx;
+  background-color: #fff
+}
+.page .middle .list{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.page .middle .list .box{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1rpx dotted #888;
+  padding: 30rpx 0 20rpx
+}
+.page .middle .list .box .arr{
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9em
+}
+.page .middle .list .box .arr image{
+  width: 30rpx;
+  height: 40rpx;
+  margin-right: 20rpx
+}
+.page .middle .list .box .arr .num{
+  width: 40rpx;
+  height: 40rpx;
+  background-color: #fa3b2b;
+  border-radius: 26rpx;
+  text-align: center;
+  color: #fff;
+}
+.page .middle .list .box .arr .numMon{
+  color: #fa3b2b;
+}
+.page .middle .list image{
+  width: 50rpx;
+  height: 50rpx;
+  margin-left: 20rpx;
+  margin-top: 10rpx;
+  margin-right: 10rpx
+}

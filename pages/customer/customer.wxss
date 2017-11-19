@@ -1,0 +1,57 @@
+.page{
+  height: auto
+}
+.page .middle{
+  margin-top: 30rpx;
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+  background-color: #fff;
+}
+.page .top{
+  padding: 20rpx 0 20rpx;
+  box-sizing: border-box;
+  border-bottom: 1rpx solid #ccc;
+}
+.page .top .co{
+  width: 30%;
+  text-align: center;
+  padding-bottom: 20rpx
+}
+.page .top .able{
+  color: #009c62;
+  border-bottom: 4rpx solid #009c62;
+}
+.page .sp{
+  padding: 30rpx 0 0;
+  border-bottom: 0;
+  background-color: #fff;
+}
+.page .ps{
+  border-bottom: 1rpx solid #ccc;
+}
+.page .top .space{
+  width: 50rpx;
+}
+.page .top .left image{
+  width: 130rpx;
+  height: 100rpx;
+}
+.page .top  image{
+  width: 150rpx;
+  height: 54rpx;
+}
+.page .top .left .txt{
+  margin-left: 30rpx
+}
+.page .top .left .name .date{
+  font-size: 0.9em;
+  color: #888;
+  margin-left: 10rpx
+}
+.page .top .left .txt .com{
+  font-size: 0.8em;
+  color: #888;
+  margin-top: 10rpx
+}

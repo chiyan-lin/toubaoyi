@@ -1,0 +1,52 @@
+<view class="page">
+
+  <view class="fx-col fx-p-s fx-m-s header">
+    <view class="fx-row fx-p-a fx-m-s procedure-info">
+      <view class="info">录入信息</view>
+      <view class="info">确认支付</view>
+      <view>打印凭证</view>
+    </view>
+    <view class="procedure-order">
+      <image src="./image/step_line_2.png"></image>
+    </view>
+  </view>
+
+  <view class="content tickBg">
+    <view class="type-2 product">
+      <view class="label">产品</view>
+      <view class="info">{{productName}}</view>
+    </view>
+    <view class="type-2 start-date">
+      <view class="label">生效日</view>
+      <view class="info">{{startDate}}</view>
+    </view>
+    <view class="type-2 end-date">
+      <view class="label">终止日</view>
+      <view class="info">{{endDate}}</view>
+    </view>
+    <view class="type-2 num">
+      <view class="label">被保人数</view>
+      <view class="info">{{totalNum}}人</view>
+    </view>
+    <view class="type-2 number">
+      <text>{{insuredList}}</text>
+    </view>
+    <view class="type-2 insure-money">
+      <view class="label">总保费</view>
+      <view class="money">{{totalNum*insureMoney}}<text style="color:#000">元</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="content part3">
+    <label class="checkbox type-4" bindtap="forCheck">
+      <checkbox value="yes" checked="{{check}}"/>
+      <text>我已阅读并同意《保单协议条款》</text>
+    </label>
+  </view>
+
+  <view class="footer {{checkClass}}" catchtap="goNext">
+    支 付
+  </view>
+
+</view>

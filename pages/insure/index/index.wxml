@@ -1,0 +1,89 @@
+<view class="page">
+
+  <view class="fx-col fx-p-s fx-m-s header">
+    <view class="fx-row fx-p-a fx-m-s procedure-info">
+      <view class="info">录入信息</view>
+      <view>确认支付</view>
+      <view>打印凭证</view>
+    </view>
+    <view class="procedure-order">
+      <image src="./image/step_line_1.png"></image>
+    </view>
+  </view>
+
+  <view class="content">
+    <view class="fx-row fx-p-s fx-m-c type-1 product-info">
+      <icon type="success" size="20" color="#019c62"/>
+      <text class="info">产品信息</text>
+    </view>  
+    <view class="type-2 product-name" catchtap="toProduct">
+      <view class="label">产品名称</view>
+      <view value="{{index}}" range="{{product}}">          
+          <view class="name">{{product}} 
+            <image src="image/arr.png" class="arr"></image>
+          </view>
+      </view>
+    </view>  
+    <view class="type-2 insure-money">
+      <view class="label">保险费</view>
+      <view class="money">{{insureMoney}}<text style="color:#000">元</text>
+      </view>
+    </view>
+    <view  style="width:100%">
+      <picker mode="date" value="{{date}}" bindchange="bindDateChange" style="width:100%">
+        <view class="type-2">
+          <text>生效日期</text>
+          <view class="classname">
+           <text>{{startDate}} </text>
+           <image src="image/arr.png" class="arr"></image>         
+          </view>
+        </view>
+      </picker>
+    </view> 
+    <view class="type-2 end-date">
+      <view class="label">终止日期</view>
+      <view class="date">{{endDate}}</view>
+    </view>
+  </view>
+
+  <view class="content part3">
+    <view class="fx-row fx-p-s fx-m-c type-1 person-info">
+      <icon type="success" size="20" color="#019c62"/>
+      <text class="info">被保人信息</text>
+    </view>
+    <view class="fx-col fx-p-s fx-m-s input">
+      <view class="fx-row fx-p-b fx-m-c insured-person" catchtap="goInfo">
+        <view class="label">被保险人</view>
+        <view class="fx-row fx-p-e fx-m-c person-name" hidden="{{totalNum==0?true:false}}">
+          <text class="insure-people">{{insuredList}}</text>
+          <text class="num"> {{totalNum}}</text>
+          <text>人 ></text>
+        </view>
+      </view>
+      <view class="input-choose">
+        <view class="fx-col fx-p-a fx-m-c in" catchtap="goScan">
+          <image src="./image/scan_icon.png"></image>
+          <text>扫描录入</text>
+        </view>
+        <view class="fx-col fx-p-a fx-m-c  in" catchtap="goWrite">
+          <image src="./image/write_icon.png"></image>
+          <text>手工录入</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class="footer fx-row fx-p-b fx-m-c">
+    <view class="pay-info">
+      <view hidden="{{totalNum==0?true:false}}">
+        <text>共计</text>
+        <text class="num">{{totalNum}}</text>
+        <text>人，保费总计</text>
+        <text class="num">{{insureMoney*totalNum}}</text>
+        <text>元</text>    
+      </view>
+    </view>
+    <button class="btn {{totalNum==0?'btnDisable':''}}" catchtap="goNext" disabled="{{totalNum==0?true:false}}">下一步</button>
+  </view>
+
+</view>

@@ -1,0 +1,15 @@
+<view class="page">
+  <view class="label">选择产品</view>
+  <view class="fx-row fx-p-a fx-m-c contents">
+    <block wx:for="{{product_info}}" wx:key="{{index}}">
+      <view class="product-box" bindtap="select" data-index="{{index}}"  data-duty="{{item.duty}}" data-info="{{item.info}}" data-price="{{item.price}}">
+        <image src="./image/product_choice.png" class="default" wx:if="{{item.isDefault}}"></image>
+        <image src="{{item.img}}"></image>
+        <view class="fx-row fx-p-c fx-m-c unSelected {{item.selected}}">{{item.info}}</view>
+      </view>
+    </block>
+  </view>
+  <view class="footer" bindtap="goNext">
+    确认选择
+  </view>
+</view>

@@ -1,0 +1,26 @@
+<view class="fx-col fx-p-s fx-m-c page">
+  <image src="image/banner.png" class="banner"></image>
+  <view class="infoBox">
+   <view class="fx-row fx-p-b fx-m-c info" wx:for="{{product}}" wx:key="{{index}}">
+    <view class="pic">
+      <image src="{{item.pic}}"></image>
+    </view>
+    <view class="fx-col fx-p-s fx-m-s text">
+      <text class="title">{{item.title}}</text>
+      <text class="intro">{{item.intro}}</text>
+      <view class="fx-row fx-p-b fx-m-c bottom">
+        <view class="fx-row fx-p-s fx-m-e money">
+          <text class="price">{{item.price}}</text>
+          <text>元起</text>
+        </view>
+        <view class="fx-row fx-p-c btnGroup">
+          <button open-type="share">
+            <image src="image/share.png"  class="btn1"></image>
+          </button>
+          <image src="image/insure.png" bindtap="goBuy"></image>
+        </view>
+      </view>
+    </view>
+   </view>
+  </view>
+</view>

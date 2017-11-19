@@ -1,0 +1,98 @@
+.page .content .type-1 .info{
+  margin-left: 10rpx;
+}
+.page .content .type-2 .label{
+  align-self: flex-start;
+  font-size: 1rem;
+}
+.page .content .type-2 .money{
+  align-self: flex-end;
+  font-size: 1rem;
+  color: #019c62;
+}
+.page .part3{
+  margin-top: 20rpx;
+}
+.page .content .input{
+  background-color: #fff;
+}
+.page .content .input .insured-person{
+  line-height: 1;
+  padding-top: 10rpx;
+  padding-bottom: 10rpx;
+  height: 58rpx
+}
+.page .content .arr{
+  width: 18rpx;
+  height: 23rpx;
+}
+.page .content .input .insured-person .num{
+  color: #019c62
+}
+.page .content .input .insured-person .label{
+  width: 200rpx;
+}
+.page .content .input .insured-person .person-name{
+  line-height: 1;
+  padding-top: 23rpx;
+  padding-bottom: 23rpx  
+}
+.page .content .input .insured-person .insure-people{
+  max-width: 500rpx;
+  overflow:hidden; 
+  white-space:nowrap;  
+  text-overflow:ellipsis;  
+  display:inline-block;
+  margin-right:5rpx;
+  font-size: 0.9rem
+}
+.page .content .input .input-choose{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  height: auto;
+  padding-bottom: 30rpx
+}
+.page .content .input .input-choose .in{
+  width: 42%;
+  border: 1px dotted #019c62;
+  padding-top: 50rpx;
+  padding-bottom: 50rpx;
+  background-color: #f7fffb
+}
+.page .content .input .input-choose .in image{
+  width: 80rpx;
+  height: 60rpx
+}
+.page .content .input .input-choose .in text{
+  margin-top: 30rpx;
+  font-size: 0.8rem
+}
+.page .footer{
+  height: 100rpx;
+  background-color: #fff;
+  position: fixed;
+  bottom: 0;
+}
+.page .footer .pay-info{
+  font-size: 0.9rem;
+  margin-left: 20rpx;
+  color: #000
+}
+.page .footer .pay-info .num{
+  color: #019c62;
+}
+.page .footer .btn{
+  width: 33%;
+  height: 100%;
+  background-color: #019c62;
+  color: #fff;
+  text-align: center;
+  border-radius: 0;
+  vertical-align: middle;
+  margin: 0;
+}
+.page .footer .btnDisable{
+  background-color: #ccc;
+}

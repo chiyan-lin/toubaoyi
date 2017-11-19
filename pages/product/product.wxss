@@ -1,0 +1,66 @@
+.page{
+  height: auto
+}
+.page .banner{
+  width: 100%;
+  height: 300rpx
+}
+.page .infoBox{
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  margin-top: 20rpx auto;
+  padding:0 10rpx 0;
+  box-sizing: border-box;
+}
+.page .infoBox .info{
+  padding: 20rpx 0 20rpx;
+  width: 90%;
+  border-bottom: 2rpx dotted #888;
+  margin: 0 auto
+}
+.page .infoBox .info .pic{
+  width: 30%;
+}
+.page .infoBox .info .pic image{
+  width: 190rpx;
+  height: 190rpx;
+}
+.page .infoBox .info .text{
+  width: 70%;
+}
+.page .infoBox .info .text .title{
+  font-weight: bold;
+  font-size: 0.9em;
+  margin-bottom: 10rpx
+}
+.page .infoBox .info .text .intro{
+  font-size: 0.7em;
+  color: #888
+}
+.page .infoBox .info .text .bottom{
+  font-size: 0.7em
+}
+.page .infoBox .info .text .bottom .money .price{
+  color: red;
+  font-size: 1.3em;
+  float: left
+}
+.page .infoBox .info .text .bottom .btnGroup button{
+  width: -10px;
+  height: 0;
+  border:0px;
+  position: relative;
+  overflow: visible;
+  margin-top: 1rpx;
+}
+.page .infoBox .info .text .bottom .btnGroup .btn1{
+  position: absolute;
+  left: -41rpx;
+  top: -1rpx;
+}
+.page .infoBox .info .text .bottom .btnGroup image{
+  width: 120rpx;
+  height: 50rpx;
+  margin-left: 20rpx
+}

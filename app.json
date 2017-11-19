@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/message/message",
+    "pages/customer/customer",
+    "pages/mine/mine",
+    "pages/product/product",
+    "pages/achievement/achievement",
+    "pages/insure/index/index",
+    "pages/insure/print/print",
+    "pages/insure/product/product",
+    "pages/insure/pay/pay",
+    "pages/insure/hand-input/hand-input",
+    "pages/insure/info/info",
+    "pages/insure/confirm/confirm"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "tab/index.png",
+        "selectedIconPath": "tab/indexSelect.png"
+      },
+      {
+        "pagePath": "pages/product/product",
+        "text": "产品",
+        "iconPath": "tab/product.png",
+        "selectedIconPath": "tab/productSelect.png"
+      },
+      {
+        "pagePath": "pages/customer/customer",
+        "text": "客户",
+        "iconPath": "tab/customer.png",
+        "selectedIconPath": "tab/customerSelect.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "tab/my.png",
+        "selectedIconPath": "tab/mySelect.png"
+      }
+    ],
+    "color": "#000",
+    "selectedColor": "#019c62",
+    "backgroundColor": "#fff",
+    "borderStyle": "white",
+    "position": "bottom"
+  }
+}

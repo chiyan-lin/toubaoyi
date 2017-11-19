@@ -1,0 +1,59 @@
+<!--pages/mine/mine.wxml-->
+<view class="fx-col fx-p-b fx-m-c page">
+  <view class="fx-row fx-p-b fx-m-c top">
+    <view class="fx-row fx-p-s fx-m-c left">
+      <image src="image/photo.png"></image>
+        <view class="fx-col fx-p-c fx-m-s txt">
+          <text class="name">张梦婷</text>
+          <text class="com">前海人寿广东省分公司</text>
+        </view>
+    </view>
+    <image src="image/peo.png"></image>
+  </view>
+  <view class="middle">
+
+    <view class="list">
+      <image src="image/order.png"></image>
+      <view class="box">
+        <text class="tab">我的订单</text>
+        <view class="arr">
+          <view class="num">5</view>
+          <image src="image/more.png"></image>
+        </view>      
+      </view> 
+    </view>
+
+    <view class="list">
+      <image src="image/work.png"></image>
+      <view class="box">
+        <text class="tab">我的业绩</text>
+        <view class="arr">
+          <view class="numMon">10000.00元</view>
+          <image src="image/more.png"></image>
+        </view>      
+      </view> 
+    </view>
+
+    <view class="list">
+      <image src="image/setting.png"></image>
+      <view class="box">
+        <text class="tab">设置</text>
+        <view class="arr">
+          <image src="image/more.png"></image>
+        </view>      
+      </view> 
+    </view>
+
+    <view class="list">
+      <image src="image/problem.png"></image>
+      <view class="box">
+        <text class="tab">常见问题</text>
+        <view class="arr">
+          <image src="image/more.png"></image>
+        </view>      
+      </view> 
+    </view>
+
+
+  </view>
+</view>

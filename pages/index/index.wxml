@@ -1,0 +1,31 @@
+<view class="fx-col fx-p-s fx-m-c page">
+  <image src="image/banner.png" class="banner"></image>
+  <view class="fx-row fx-p-c fx-m-c notice">
+    <image src="image/notice.png" class="noticeIcon"></image>
+    <text class="label">公告</text>
+    <swiper autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" class="turn">
+    <block wx:for="{{notice}}" wx:key="{{index}}">
+      <swiper-item>
+        <text class="txt">{{item}}</text>
+      </swiper-item>
+    </block>
+  </swiper>
+  </view>
+
+  <view class="fx-row fx-p-c fx-m-c func">
+    <view class="fastInsure left fx-col fx-p-c fx-m-c" bindtap="goFastInsure">
+      <image src="image/fastInsure.png" class="pic"></image>
+      <text class="txt">快速投保</text>
+    </view>
+    <view class="right fx-col fx-p-c fx-m-c">
+      <view class="work fx-col fx-p-c fx-m-c" bindtap="goAchr">
+        <image src="image/work.png" class="pic"></image>
+        <text class="txt">业绩</text>
+      </view>
+      <view class="msg fx-col fx-p-c fx-m-c" bindtap="goMsg">
+        <image src="image/message.png" class="pic"></image>
+        <text class="txt">消息</text>
+      </view>
+    </view>
+  </view>
+</view>

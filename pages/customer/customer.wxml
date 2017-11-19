@@ -1,0 +1,19 @@
+<view class="fx-col fx-p-s fx-p-s page">
+  <view class="fx-row fx-p-c fx-m-c top sp">
+    <text class="co {{success?'able':''}}" bindtap="toSuccess">成交客户</text>
+    <text class="space"></text>
+    <text class="co {{maybe?'able':''}}" bindtap="toMaybe">潜在客户</text>
+  </view>
+  <view class="middle ps">
+    <view class="fx-row fx-p-c fx-m-c top" wx:for="{{tab}}" wx:key="{{index}}">
+      <view class="fx-row fx-p-s fx-m-c left">
+        <image src="{{item.pic}}"></image>
+          <view class="fx-col fx-p-c fx-m-s txt">
+            <text class="name">{{item.name}}<text class="date">{{item.date}}</text></text>
+            <text class="com">{{item.state}}</text>
+          </view>
+      </view>
+      <image src="image/send.png"></image>
+    </view>  
+  </view>
+</view>

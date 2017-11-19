@@ -1,0 +1,28 @@
+.page .con .qc{
+  width:400rpx;
+  height:400rpx;
+  margin: 0rpx auto
+}
+.page .content .pi{
+  width:50rpx;
+  height:50rpx;
+  margin-right: 10rpx
+}
+.page .part{
+  margin-top: 3%
+}
+.page .content .type-2 view:last-child{
+  color: #009c62
+}
+.page .content .type-1{
+  border: 0
+}
+.page .con{
+  margin-top: 5%
+}
+.page .con .alert{
+  font-size: 0.8em;
+  color: #888;
+  text-align: center
+}
+

@@ -1,0 +1,38 @@
+<view class="page">
+  <view class="content">
+    <view class="type-1 product-info">
+            <image src="./image/info.png" class="pi"></image>
+      <text class="info">支付信息</text>
+    </view>  
+    <view class="type-2 product-name" catchtap="toProduct">
+      <view class="label">产品名称</view>
+      <view value="{{index}}" range="{{product}}">          
+          <view class="name">{{productName}}</view>
+      </view>
+    </view>  
+    <view class="type-2 order">
+      <view class="label">订单号</view>
+      <view value="{{index}}" range="{{product}}">          
+          <view class="name">{{orderId}}</view>
+      </view>
+    </view>  
+    <view class="type-2 insure-money">
+      <view class="label">应付金额</view>
+      <view class="money">{{pay}} <text>元</text>
+      </view>
+    </view>
+  </view>
+  <view class="content part">
+    <view class="type-1 person-info">
+      <image src="./image/wechat_pay.png" class="pi"></image>
+      <text class="info green">微信支付</text>
+    </view>
+  </view>
+  <view class="fx-col fx-p-a fx-m-c con">
+    <view class="classname">
+      <view class="alert">扫一扫二维码直接支付</view>
+      <image src="./image/pay.png" class="qc"></image>  
+    </view>
+    <button type="primary" loading="{{loading}}" plain bindtap="toRequestPayment">直接付款</button>
+  </view>
+</view>  

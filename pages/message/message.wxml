@@ -1,0 +1,14 @@
+<view class="fx-col fx-p-s fx-p-s page">
+  <view class="middle ps">
+    <view class="fx-row fx-p-c fx-m-c top" wx:for="{{msg}}" wx:key="{{index}}">
+      <view class="fx-row fx-p-s fx-m-c left">
+        <image src="{{item.pic}}"></image>
+          <view class="fx-col fx-p-c fx-m-s txt">
+            <text class="name">{{item.name}}</text>
+            <text class="com">{{item.state}}</text>
+          </view>
+      </view>
+      <text class="date">{{item.date}}</text>
+    </view>  
+  </view>
+</view>

@@ -1,0 +1,19 @@
+/* info.wxss */
+.page .content .infoListBox{
+  align-content: center;
+  padding-top: 20rpx;
+  box-sizing: border-box;
+  padding-bottom: 20rpx;
+  border-bottom:1px dotted #ccc;  
+}
+.page .content .infoListBox .layout{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+  align-items: center
+}
+.page .content .infoListBox .infoListItem2{
+  margin-top: 15rpx;
+}

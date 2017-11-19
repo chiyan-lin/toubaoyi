@@ -1,0 +1,13 @@
+/* pages/hand-input/hand-input.wxss */
+.page .content .type-2 input{
+  text-align: right;
+}
+.page .content .type-2{
+  padding-top:16rpx;
+  padding-bottom:16rpx;
+}
+.dateSp{
+  height: 55rpx;
+  text-align: center;
+  line-height: 55rpx
+}

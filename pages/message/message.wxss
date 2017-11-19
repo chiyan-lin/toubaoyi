@@ -1,0 +1,36 @@
+.page{
+  height: auto
+}
+.page .middle{
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+  background-color: #fff;
+}
+.page .top{
+  padding: 20rpx 0 20rpx;
+  box-sizing: border-box;
+  border-bottom: 1rpx solid #ccc;
+}
+.page .top .space{
+  width: 50rpx;
+}
+.page .top .left image{
+  width: 130rpx;
+  height: 100rpx;
+}
+.page .top  .date{
+  width: 240rpx;
+  font-size: 0.9em;
+  color: #888;
+  margin-left: 10rpx
+}
+.page .top .left .txt{
+  margin-left: 30rpx
+}
+.page .top .left .txt .com{
+  font-size: 0.8em;
+  color: #888;
+  margin-top: 10rpx
+}

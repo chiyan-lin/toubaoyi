@@ -1,0 +1,43 @@
+<view class="page">
+  <view class="content">
+    <view class="fx-col infoListBox" wx:for="{{InfoList}}" wx:key="{{index}}">
+      <view class="layout">
+        <view class="name layout">
+          <view class="lableName">姓名：</view>
+          <view class="name">{{item[0]}}</view>
+        </view>
+        <view class="sex layout">
+          <view class="lableSex">性别：</view>
+          <view class="sex">{{item[1]}}</view>
+        </view>
+      </view>
+      <view class="infoListItem2 layout">
+        <view class="id layout">
+          <view class="lableSex">出生日期：</view>
+          <view class="sex">{{item[3]}}</view>
+        </view>
+      </view>
+      <view class="infoListItem2 layout">
+        <view class="id layout">
+          <view class="lableSex">证件号码：</view>
+          <view class="sex">{{item[2]}}</view>
+        </view>
+      </view>
+      <view class="infoListItem2 layout">
+        <view class="id layout">
+          <view class="lableSex">手机号：</view>
+          <view class="sex">{{item[4]}}</view>
+        </view>
+      </view>
+      <view class="infoListItem2 layout">
+        <view class="id layout">
+          <view class="lableSex">邮箱：</view>
+          <view class="sex">{{item[5]}}</view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="footer" bindtap="goNext">
+    确 认
+  </view>
+</view>

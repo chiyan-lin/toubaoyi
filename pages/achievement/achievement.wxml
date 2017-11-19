@@ -1,0 +1,42 @@
+<view class="page">
+  <view class="banner col">
+    <view class="top col">
+      <text>账户余额(元)</text>
+      <text class="txt">{{balance}}.00</text>
+    </view>
+    <view class="fx-row fx-p-a fx-m-c middle">
+      <view class="line"></view>  
+      <image class="san" src='image/jiantou_01.png'></image>
+      <view class="line"></view>
+    </view>
+    <view class="fx-row fx-p-c fx-m-c bottom">
+      <view class="left col">
+        <text>本月收入(元)</text>
+        <text class="txt">{{monthIncome}}.00</text>   
+      </view>
+      <view class="line"></view>
+      <view class="right col">
+        <text>累计收入(元)</text>
+        <text class="txt">{{allIncome}}.00</text>   
+      </view>
+    </view>
+  </view>
+
+  <view class="fx-row fx-p-c fx-m-c detail">
+      <text class="label">业绩明细 ></text>
+  </view>
+
+  <view class="content">
+    <view class="fx-row fx-p-b fx-m-c type-2">
+      <view class="addCard">
+        <image src="image/tianjia.png" class="add"></image>
+          <text class="label">添加银行卡</text>
+      </view>
+      <text class="arr">></text>
+    </view>
+  </view>
+  <view class="fx-col fx-p-c fx-m-c getMon">
+    <image src="image/bag.png" class="btn"></image>
+    <text class="label">满50元提现，还差50元，加油！</text>
+  </view>
+</view>
